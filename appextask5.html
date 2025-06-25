@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tourism Blog</title>
+  <link rel="stylesheet" href="appexstyle.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">🌍 Tourism Blog</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#destinations">Destinations ▾</a>
+          <ul class="dropdown-content">
+            <li><a href="#india">India</a></li>
+            <li><a href="#europe">Europe</a></li>
+            <li><a href="#asia">Asia</a></li>
+            <li><a href="#adventure">Adventure</a></li>
+          </ul>
+        </li>
+        <li><a href="#posts">Travel Logs</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Travel Hero Image" />
+      <h1>Welcome to Tourism Blog</h1>
+      <p>Discover the world's most beautiful places, hidden gems, and travel stories that inspire your next journey.</p>
+    </div>
+  </section>
+
+  <section id="posts">
+    <h2>Latest Travel Logs</h2>
+    <div class="post-grid" id="post-grid">
+      <div class="post">
+        <img src="C:\Users\angara srinivas\Downloads\woman-with-hat-sitting-chairs-beach-beautiful-tropical-beach-woman-relaxing-tropical-beach-koh-nangyuan-island.jpg" alt="Beach Vacation" />
+        <h3>Top 10 Tropical Beaches You Must Visit</h3>
+        <p>Unwind at the world's most relaxing shores with crystal-clear waters and golden sunsets.</p>
+      </div>
+      <div class="post">
+        <img src="C:\Users\angara srinivas\Downloads\horizontal-shot-group-people-hiking-mountains-covered-snow-cloudy-sky.jpg" alt="Mountain Trek" />
+        <h3>Himalayan Adventures: A Trekker’s Paradise</h3>
+        <p>Explore the rugged trails, snowy peaks, and peaceful valleys of the majestic Himalayas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories">
+    <h2>Explore Categories</h2>
+    <div class="category-grid">
+      <div class="category">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="Nature" />
+        <h3>Nature Escapes</h3>
+        <p>Reconnect with natural wonders and serene landscapes.</p>
+      </div>
+      <div class="category">
+        <img loading="lazy" src="C:\Users\angara srinivas\Downloads\happy-tourist-sightseeing-city-with-map.jpg" alt="City Tours" />
+        <h3>City Tours</h3>
+        <p>Discover cultural landmarks, nightlife, and urban adventures.</p>
+      </div>
+      <div class="category">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653" alt="Heritage" />
+        <h3>Heritage Sites</h3>
+        <p>Step back in time with visits to ancient monuments and world heritage locations.</p>
+      </div>
+      <div class="category">
+        <img loading="lazy" src="C:\Users\angara srinivas\Downloads\crispy-fried-chicken-plate-with-salad-carrot.jpg" alt="Food" />
+        <h3>Food & Culture</h3>
+        <p>Relish traditional cuisines and experience local cultures firsthand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About This Blog</h2>
+    <p>
+      Tourism Blog is a passion-driven platform created for wanderers, storytellers, and explorers. Whether you're planning your next holiday, looking for adventure, or simply escaping through stories — this space is crafted for you.
+    </p>
+    <p>
+      Our mission is to help you uncover breathtaking destinations, practical travel tips, and cultural insights through firsthand experiences. We believe that travel is not just about places, but the emotions, stories, and connections made along the way.
+    </p>
+    <p>
+      Every week, we publish new articles, guides, and photo journals to fuel your wanderlust and help you plan unforgettable journeys. Let this blog be your companion as you explore the world one destination at a time.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button onclick="submitForm()">Send</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Tourism Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.min.js" defer></script>
+</body>
+</html>
